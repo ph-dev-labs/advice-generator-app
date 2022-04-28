@@ -1,0 +1,61 @@
+.attribution { font-size: 1px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.backgrd {
+    height: 92vh;
+    width: 85vw;
+   background-color: hsl(218, 23%, 16%);
+   margin: 0 auto;
+}
+
+.advice-section {
+    height: 230px;
+    width: 420px;
+    background-color:hsl(217, 19%, 24%);
+    margin: 0 auto;
+    transform: translateY(80%);
+    border-radius: 10px;
+}
+
+.advice-id {
+    color: hsl(150, 100%, 66%);
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-left: 163px;
+    padding-top: 37px;
+}
+
+.advice-text {
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 18px;
+    color: hsl(193, 38%, 86%);
+    letter-spacing: 2px;
+    margin-left: 65px;
+}
+
+
+
+.divider {
+    width: 287px;
+    margin-left: 62px;
+}
+
+.dice-bck {
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.dice {
+    height: 15px;
+    width: 15px;
+    transform: translateX(100%);
+    margin-top: 15px;
+}
