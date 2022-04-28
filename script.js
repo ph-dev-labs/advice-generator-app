@@ -12,8 +12,8 @@ async function getResponse() {
     let randomGen = Math.floor(Math.random() * data.length); // generate random digits for generating random advice with authors
     let text = data[randomGen].text;
     let author = data[randomGen].author;
-    advice.textContent += text;
-    speaker.textContent += author;
+    advice.textContent = text;
+    speaker.textContent = author;
     })
 
   } catch (error) {
